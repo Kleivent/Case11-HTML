@@ -3,6 +3,10 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { AdminUsers } from './Components/AdminUsers';
 import { Login } from './Components/Login';
 import { AdminPanel } from "./Components/AdminPanel";
+import { Solicitud } from "./Components/Solicitud";
+import { SolicitudCrear } from "./Components/SolicitudCrear";
+import { SolicitudCon } from "./Components/SolicitudCon";
+
 
 function App() {
 
