@@ -18,6 +18,10 @@ function App() {
           
           <Route path='/AdminUser' element={<AdminUsers />}></Route>
           <Route path='/AdminPanel' element={<AdminPanel />}></Route>
+
+          <Route path='/Solicitud' element={<Solicitud />}></Route>
+          <Route path='/SolicitudCrear' element={<SolicitudCrear/>}></Route>
+          <Route path='/SolicitudCon' element={<SolicitudCon/>}></Route>
         </Routes>
       </BrowserRouter>
     </>
